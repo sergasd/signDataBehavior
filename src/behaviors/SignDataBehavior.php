@@ -1,8 +1,12 @@
 <?php
 /**
- * @class SignDataBehavior
  * Provide ability to sign data for safe transmission
  */
+
+namespace sergasd\behaviors;
+
+use Yii;
+use CBehavior;
 
 class SignDataBehavior extends CBehavior
 {
